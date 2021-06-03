@@ -1,0 +1,55 @@
+.bgpicturecontact{
+    background-image: url(/image/photo/bgcontact.jpg);
+    height: 100vh;
+    object-fit: cover;
+}
+
+.acontact{
+    text-decoration: none;
+    color: black;
+    font-family: 'Futura Condensed PT', sans-serif;
+    font-size: 20px;
+}
+
+.contactinformation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactinformation div p{
+    text-align: right;
+}
+
+.mapsxsocial iframe{
+    width: 45vw;
+    padding-bottom: 12vh;
+}
+
+.mapsxsocial{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 700px) {
+    .contactinformation{
+        display: grid;
+    }
+
+    .contactinformation div p{
+        text-align: left;
+    }
+    .paddingtop{
+        padding-top: 20px;
+
+    }
+
+    .mapsxsocial{
+        display: grid;
+    }
+
+    .mapsxsocial iframe{
+        padding-top: 50px;
+        width: 100%;
+    }
+    
+}

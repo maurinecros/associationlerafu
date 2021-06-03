@@ -1,0 +1,43 @@
+/* Remove padding and margin */ 
+*{ 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #FFFFF2;
+
+}
+
+h2{
+    font-family: 'Futura PT', sans-serif;
+    color: #FF3B00;
+    font-size:x-large;
+	position: relative;
+}
+
+h3{
+    font-family: 'Futura PT', sans-serif;
+    font-size: x-large;
+}
+
+p{
+    font-family: 'Futura Condensed PT', sans-serif;
+    font-size: 20px;
+}
+
+a{
+    font-family: 'Futura PT', sans-serif;
+    font-size: 18px;
+}
+
+@media all and (max-width: 800px) {
+    p{
+        font-size:18px;
+    }
+}
