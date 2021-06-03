@@ -184,11 +184,12 @@ body.fixed .header-fixed .header-limiter nav {
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    transition: all 0.5s;
 }
 
 .redbg:hover{
     background-color: #FFFF00;
-    transition: 0.5s;
+    transition: all 0.5s;
 
 }
 
