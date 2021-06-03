@@ -28,6 +28,14 @@
     float: left;
     line-height: 40px;
     margin: 0;
+    transform: scale(1.0);
+    transition: all 0.3s;
+}
+
+.header-fixed .header-limiter h1:hover{
+  transform: scale(1.1);
+    transition: all 0.3s;
+
 }
 
 /* The navigation links */
@@ -46,10 +54,16 @@
     padding: 0 50px;
     text-decoration:none;
     color: black;
+    transform: scale(1.0);
+    transition: all 0.3s;
+
 }
 
 .header-fixed .header-limiter nav a:hover{
     font-style: italic;
+    transform: scale(1.1);
+    transition: all 0.3s;
+
 }
 
 /* Fixed version of the header */
@@ -123,11 +137,14 @@ body.fixed .header-fixed .header-limiter nav {
   top: 85vh;
   left: 90vw;
   opacity: 0.5;
+  transform: scale(1.0);
+    transition: all 0.3s;
 }
 
 .scrolltotop:hover{
   opacity: 1;
-  transition: 0.5s;
+  transform: scale(1.1);
+    transition: all 0.3s;
 }
 
 @media all and (max-width: 800px) {
@@ -267,12 +284,14 @@ h2::before {
   color: black;
   width: 140px;
   text-align: center;
+  transition: all 0.5s;
 
 }
 
 .yellowbtn:hover{
   font-style: italic;
-  transition: 1s;
+  transition: all 0.5s;
+
 }
 
 
@@ -313,6 +332,13 @@ footer p{
 
 .social{
   padding: 0 3%;
+  transform: scale(1.0);
+    transition: all 0.3s;
+}
+
+.social:hover{
+  transform: scale(1.1);
+  transition: all 0.3s;
 }
 
 @media all and (max-width: 1000px) {
