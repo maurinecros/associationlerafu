@@ -7,7 +7,8 @@
 .acontact{
     text-decoration: none;
     color: black;
-    font-family: 'Futura Condensed PT', sans-serif;
+    /* font-family: 'Futura Condensed PT', sans-serif; */
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 20px;
 }
 
